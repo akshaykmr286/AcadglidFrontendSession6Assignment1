@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Session4 Ass1</title>
+        <!-- modify the style.css inside css folder -->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!-- Main Div started-->
+        <div id="maindiv">
+            <h2>Salary Calculation : </h2><hr>
+            <div>
+                <label>Basic Salary :</label>
+                <input type="number" id="salary" placeholder="Enter basic salary" size="20">
+            </div>
+            <div>
+                <label>Working Hours:</label>
+                <input type="number" id="hours" placeholder="Enter working hours" size="20">
+            </div>
+            <input type="button" onclick="Calculate()" value="Calculate">
+            <br><hr><br>
+            <!-- Result Div-->
+            <div id="result"></div>
+        </div>
+        <!-- javascript codes are written in main.js file of js folder -->
+        <script src="js/main.js"></script>
+    </body>
+</html>
